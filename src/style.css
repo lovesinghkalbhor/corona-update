@@ -1,0 +1,90 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Fira sans", sans-serif;
+}
+
+.title{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	top: -3px;
+}
+.img{
+	width: 4rem;
+	margin:0;
+	/* box-shadow: 10px 10px lightblue; */
+}
+.img:hover{
+	width: 6rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.countries:hover{
+	text-align: center;
+	cursor: pointer;
+	background-color:#6B7280;
+	color:#ffffff;
+	border-color: #EC4899;
+	border-radius: 10px;
+}
+.recovered:hover{
+	cursor: pointer;
+	text-align: center;
+	background-color: #5fff74;
+	color:#6B7280;
+	border-color: #EC4899;
+	border-radius: 10px;
+}
+.active:hover{
+	cursor: pointer;
+	text-align: center;
+	background-color: #5fff74;
+	color:#6B7280;
+	border-color: #EC4899;
+	border-radius: 10px;
+}
+.cases:hover{
+	cursor: pointer;
+	text-align: center;
+	background-color:brown;
+	color:#dddddd;
+	border-color: #EC4899;
+	border-radius: 10px;
+}
+.deaths:hover{
+	cursor: pointer;
+	text-align: center;
+	background-color:red;
+	color:#374151;
+	border-color: #EC4899;
+	border-radius: 10px;
+
+}
+.last:hover{
+	cursor: pointer;
+	text-align: center;
+	border:2px solid ;
+	color:white;
+	border-radius: 10px;
+	background-color: #6a6c6f;
+}
+ 
+/* the top heading */
+.top{
+	cursor: pointer;
+	background-color: #DFF3E3;
+	padding:0.6rem;
+	border: 1px solid black;
+	border-radius: 5px;
+}
